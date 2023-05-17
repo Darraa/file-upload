@@ -9,8 +9,8 @@ This project is a simple file upload application developed using HTML, CSS, Java
   <li>JavaScript</li>
   <li>PHP</li>
  </ul
-  
-  <h2>Getting Started</h2>
+
+<h2>Getting Started</h2>
 To run this project on your computer, you will need to have XAMPP installed. Follow the steps below to get started:
     <ul>
         <ol>Download and install XAMPP from the official website: https://www.apachefriends.org/.</ol>
