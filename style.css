@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient( rgba(150,93,233,1), rgba(99,88,238,1));
+}
+
+i{
+    color: rgba(99,88,238,1);
+}
+
+.wrapper{
+    width: 430px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 10px 5px 5px rgba(76, 75, 75, 0.652);
+}
+
+header{
+    margin-bottom: 30px;
+    color: rgba(99,88,238,1);
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+}
+
+form{
+    margin-bottom: 30px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed rgba(99,88,238,1);
+    cursor: pointer;
+}
+
+form i{
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+form p{
+    font-size: 1em;
+    color: rgba(99,88,238,1);
+}
+
+form:hover{
+    background: rgba(98, 88, 238, 0.216);
+}
+
+.row{
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5em;
+    background: rgba(149, 93, 233, 0.352);
+}
+
+.content{
+    width: 100%;
+    margin-left: 15px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.size{
+    color: rgba(99,88,238,1);
+    font-size: 11px;
+}
+
+.progress-bar{
+    margin-top: 5px;
+    height: 5px;
+    width: 100%;
+    border-radius: 0.5em;
+    background: #fff;
+}
+
+.progress{
+    height: 100%;
+    width: 50%;
+    background: rgba(99,88,238,1);
+    border-radius: inherit;
+}
+
+.uploaded-area{
+    max-height: 230px;
+    overflow-y: scroll;
+}
+
+.uploaded-area.onprogress{
+    max-height: 150px;
+}
+
+.uploaded-details{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.uploaded-area::-webkit-scrollbar{
+    width: 0px;
+}
+
+.delete-file{
+    border:none;
+    background: none;
+    cursor: pointer;
+}
