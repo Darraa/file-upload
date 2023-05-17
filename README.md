@@ -8,7 +8,8 @@ This project is a simple file upload application developed using HTML, CSS, Java
   <li>CSS</li>
   <li>JavaScript</li>
   <li>PHP</li>
- </ul
+ </ul>
+
 
 <h2>Getting Started</h2>
 To run this project on your computer, you will need to have XAMPP installed. Follow the steps below to get started:
@@ -20,6 +21,7 @@ To run this project on your computer, you will need to have XAMPP installed. Fol
         <ol>Open your web browser and navigate to the following URL: http://localhost/file-upload/index.html.</ol>
         <ol>The project will now be up and running, and you can use the file upload functionality.</ol>
     </ul>
+
 
 <h2>Usage</h2>
     <ul>
