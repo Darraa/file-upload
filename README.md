@@ -14,12 +14,12 @@ This project is a simple file upload application developed using HTML, CSS, Java
 <h2>Getting Started</h2>
 To run this project on your computer, you will need to have XAMPP installed. Follow the steps below to get started:
     <ul>
-        <ol>Download and install XAMPP from the official website: https://www.apachefriends.org/.</ol>
-        <ol>Once XAMPP is installed, locate the installation directory and open it. Inside the XAMPP directory, you will find a folder named "htdocs".</ol>
-        <ol>Move the entire "file-upload" project folder into the "htdocs" folder.</ol>
-        <ol>Launch XAMPP Control Panel and start the Apache module. This will start the Apache server on your local machine.</ol>
-        <ol>Open your web browser and navigate to the following URL: http://localhost/file-upload/index.html.</ol>
-        <ol>The project will now be up and running, and you can use the file upload functionality.</ol>
+        <li>Download and install XAMPP from the official website: https://www.apachefriends.org/.</li>
+        <li>Once XAMPP is installed, locate the installation directory and open it. Inside the XAMPP directory, you will find a folder named "htdocs".</li>
+        <li>Move the entire "file-upload" project folder into the "htdocs" folder.</li>
+        <li>Launch XAMPP Control Panel and start the Apache module. This will start the Apache server on your local machine.</li>
+        <li>Open your web browser and navigate to the following URL: http://localhost/file-upload/index.html.</li>
+        <li>The project will now be up and running, and you can use the file upload functionality.</li>
     </ul>
 
 
